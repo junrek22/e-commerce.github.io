@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+button:hover {
+    cursor: pointer;
+}
+.nav-bar{
+    width: 100%;
+    height: 60px;
+    background-color: #E76161;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-bar .search-bar{
+    display: flex;
+    color:#E76161;
+    width: 35%;
+}
+.search-bar button, .my-buttons button{
+    padding: 0px 0px 0px 15px;
+    background:none;
+    outline: none !important;
+    border:none;
+    color:white;
+}
+.search-bar .search-input{
+    border-radius: 30px;
+    background-color: #fff;
+    padding: 6px;
+    width: 100%;
+}
+.search-input i{
+    padding: 0px 5px 0px 5px;
+}
+.search-input input{
+    width: 90%;
+    border:none;
+    outline: none;
+    background: none;
+}.nav-bar .my-buttons{
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.my-buttons .dropdown-menu{
+    background-color: #F6BA6F !important;
+    top:15px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important; 
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    
+}.my-profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 360px;
+    margin-right: 10px;
+}
+.profile hr{
+    width: 80%;
+    margin:auto !important;
+}.profile-me{
+    padding: 0.5rem 1.5rem !important;
+}.profile a i{
+    padding-right: 10px;
+}.header{
+    padding: 10px !important;
+    text-align: center;
+    color:#FC4F00;
+}.category {
+    background-color: #F6BA6F;
+    width: 100%;
+    height: 70px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}.category button{
+    outline: none !important;
+    border:none;
+    height: 50px !important;
+    border-radius: 15px;
+    background: none;
+    color:white;
+    padding: 10px;
+}
+.category button:first-child{
+   
+    background-color:#E76161;
+}
+.buy-card{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    padding: 0px 10px 0px 50px;
+    justify-content: space-between;
+}
+.buy-card .prod-img{
+    width: 30%;
+    height: 550px;
+}
+.prod-img img{
+    width: 100%;
+    height: 100%;
+}
+.buy-card .prod-info{
+    width: 60%;
+    
+}.prod-info .prod-name{
+    word-wrap: break-word;
+}.prod-name h1{
+   font-size: 4rem;
+}
+.prod-info .rating{
+    /* border:1px solid black; */
+    padding: 0px 0px 0px 10px;
+    font-size: 1rem;
+  
+}.rating .sold{
+    margin-left: 20px;
+}.rating  .fa-star {
+    color:#FFCE38;
+}.rating  span:first-child {
+    color:#FC4F00;
+}
+.price {
+    margin-top: 20px;
+    font-size: 3rem;
+}
+.prod-info .prod-mod{
+    margin-top: 30px;
+    font-size: 1rem;
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}.prod-mod .colors-select, .size-select {
+    margin-right: 10px;
+} .colors button,.sizes button{
+    border-radius: 360px;
+    width: 40px;
+    height: 40px;
+    border:none;
+}.sizes button{
+    border:1px solid black;
+}.colors button:nth-child(2){
+background-color: #C42424;
+}
+.colors button:nth-child(3){
+background-color: #004AAD;
+}
+.colors button:nth-child(4){
+    background-color: #8C52FF;
+}
+.colors, .sizes {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}.quant{
+    margin-top: 40px;
+    font-size: 1.25rem;
+}.quant span:first-child{
+    font-weight: bold;
+}
+.quan-inputs {
+    border:1px solid black;
+    
+}.quant button {
+    padding: 0px 10px 0px 10px;
+}
+.quant input ,.quant button {
+    outline: none !important;
+    border:none;
+    background: none;
+}.quant input {
+    border-left:1px solid black;
+    border-right:1px solid black;
+    width: 7%;
+    padding-left: 8px;
+}
+.quant span:first-child{
+    margin-right: 10px;
+}.buy-buttons{
+    width: 85%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 60px;
+}.buy-buttons > * {
+    padding: 10px 40px 10px 40px;
+    border-radius: 40px;
+    font-size: 1.25rem;
+}.buy-buttons button:first-child {
+    border:1px solid #E08E6D;
+    color:#E08E6D;
+}.buy-buttons button:nth-child(2) {
+    border:1px solid #A4C424;
+    color:#A4C424;
+}.buy-buttons a{
+    border:none;
+    background-color: #E76161;
+    text-decoration: none;
+    color:white;
+}
